@@ -4,17 +4,38 @@ import { RouterLink, routerKey  } from 'vue-router';
 
 
 <template>
-    <header>
-        <nav class="conteiner">
-            <div class="branding">
-                <img src="../assets/Vue_Logo_Black.png" alt=""/>
-                <h1>Vue Amicão</h1>
-                <ul class="nav-routes"></ul>
-                <RouterLink to="/">Home </RouterLink>
-                <RouterLink to="/about">About </RouterLink>
-            </div>
-        </nav>
-    </header>
+
+
+  <header>
+
+
+    <nav class="conteiner">
+
+
+      <div class="branding">
+        
+        <img src="../assets/Vue_Logo_Black.png" alt=""/>
+        <img src="../assets/amicao_logo.png" alt=""/>
+        <h1>Vue-Amicão</h1>
+               
+      </div>
+
+
+      <ul class="nav-routes">
+    
+        <RouterLink to="/">Home </RouterLink>
+        <RouterLink to="/about">About </RouterLink>
+        <RouterLink to="/contacts">Contatos</RouterLink>
+    
+      </ul>
+
+
+    </nav>
+
+
+  </header>
+
+
 </template>
 
 
